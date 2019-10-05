@@ -1,0 +1,26 @@
+{
+  "name": "con-color",
+  "version": "1.0.0",
+  "description": "simple function for coloring nodejs console messages",
+  "author": "ewclide",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ewclide/con-color.git"
+  },
+  "scripts": {
+    "test": "nodejs ./test"
+  },
+  "keywords": [
+    "con-color",
+    "console color",
+    "nodejs console",
+    "console coloring"
+  ],
+  "files": [
+    "lib",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
+}

@@ -5,7 +5,7 @@ Simple script for colorize nodejs console messages.
 
 ### Install
 
-    npm i con-color
+    npm i node-con-color
 
 ### Usage
 
@@ -49,7 +49,7 @@ If you want other background or combine several styles, for example 'bold' with 
 ### Example
 
 ```js
-const log = require('con-color');
+const log = require('node-con-color');
 
 /* default styles */
 log('#{this} #1{is} #4{my} #6{colorful} #12{message}!');

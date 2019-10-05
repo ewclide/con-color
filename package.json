@@ -1,5 +1,5 @@
 {
-  "name": "con-color",
+  "name": "node-con-color",
   "version": "1.0.0",
   "description": "simple function for coloring nodejs console messages",
   "author": "ewclide",
@@ -13,6 +13,7 @@
   },
   "keywords": [
     "con-color",
+    "node-con-color",
     "console color",
     "nodejs console",
     "console coloring"

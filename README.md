@@ -42,9 +42,9 @@ If you want other background or combine several styles, for example 'bold' with 
 
 ### Available styles
 
-**colors**: black, red, green, yellow, blue, magneta, cyan, white, grey  
+**colors**: black, red, green, yellow, blue, magenta, cyan, white, grey  
 **styles**: normal, bold, italic, underline, inversed, hidden  
-**backgrounds**: none, black, red, green, yellow, blue, magenta, cyan, white: 47
+**backgrounds**: none, black, red, green, yellow, blue, magenta, cyan, white
 
 ### Example
 

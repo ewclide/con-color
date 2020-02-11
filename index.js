@@ -1,3 +1,3 @@
-const log = require('./lib');
+const lib = require('./lib');
 
-module.exports = log;
+module.exports = lib;

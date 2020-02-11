@@ -14,7 +14,7 @@ It's simple to use this function. Put in the brackets your text and specify styl
     '#index{user text here}'
 
 Here index means a number of styles object in config array.
-You can specify your own config or use default.  
+You can specify your own config or use default.
 If you want to use only first style in config, then type grid symbol without a number.
 
     '#{apply first style}'
@@ -42,14 +42,14 @@ If you want other background or combine several styles, for example 'bold' with 
 
 ### Available styles
 
-**colors**: black, red, green, yellow, blue, magenta, cyan, white, grey  
-**styles**: normal, bold, italic, underline, inversed, hidden  
+**colors**: black, red, green, yellow, blue, magenta, cyan, white, grey
+**styles**: normal, bold, italic, underline, inversed, hidden
 **backgrounds**: none, black, red, green, yellow, blue, magenta, cyan, white
 
 ### Example
 
 ```js
-const log = require('node-con-color');
+const { log } = require('node-con-color');
 
 /* default styles */
 log('#{this} #1{is} #4{my} #6{colorful} #12{message}!');
@@ -68,6 +68,14 @@ const styles = [
 ];
 
 log('this is my #0{colorful} #1{message}!', styles);
+```
+
+You cant also colorize error output using ColoredError:
+
+```js
+const { ColoredError } = require('node-con-color');
+
+throw new ColoredError('#{This is} #12{colored} #3{error}');
 ```
 
 ![linebar](./img/example.png)

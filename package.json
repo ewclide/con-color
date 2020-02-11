@@ -1,6 +1,6 @@
 {
   "name": "node-con-color",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "simple function for coloring nodejs console messages",
   "author": "ewclide",
   "license": "MIT",
